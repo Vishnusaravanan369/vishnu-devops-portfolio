@@ -35,7 +35,6 @@ export function Footer() {
         <p className="text-xs font-mono text-slate-500">
           $ exit 0 → <span className="text-[#00ff88]">Session ended successfully</span>
         </p>
-        <p>tq</p>
       </div>
     </footer>
   );
