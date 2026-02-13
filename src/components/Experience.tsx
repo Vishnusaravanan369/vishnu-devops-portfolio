@@ -34,7 +34,7 @@ export function Experience() {
 
   const experiences: ExperienceItem[] = [
     {
-      title: 'DevOps Intern',
+      title: 'DevOps Intern (Unpaid)',
       company: 'Internship Studio',
       period: 'APR 2025 - Present',
       highlights: [
