@@ -3,7 +3,7 @@ import { FileText, ExternalLink } from 'lucide-react';
 export function Footer() {
   const handleViewResume = () => {
     // Replace this URL with actual Google Drive link
-    window.open('https://drive.google.com/file/u/0/d/1wuXGqvJczGMdmY0Z_WU37DnRNLHVCwWe/view?usp=sharing&pli=1');
+    window.open('https://drive.google.com/file/u/0/d/1wuXGqvJczGMdmY0Z_WU37DnRNLHVCwWe/view');
   };
 
   return (
