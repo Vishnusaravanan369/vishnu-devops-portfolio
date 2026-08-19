@@ -1,18 +1,15 @@
 import { FileText, ExternalLink } from 'lucide-react';
 
 export function Footer() {
-  const handleViewResume = () => {
-    // Replace this URL with actual Google Drive link
-    window.open('https://drive.google.com/file/d/1duBS1Q4VqKv0fTilEnrN-EQdbmiIPyv4/view?usp=sharing');
-  };
-
   return (
     <footer className="border-t border-slate-800 py-16 text-center">
       <div className="max-w-6xl mx-auto px-6">
         {/* View Resume Button */}
         <div className="mb-8">
-          <button
-            onClick={handleViewResume}
+          <a
+            href="https://drive.google.com/file/d/1duBS1Q4VqKv0fTilEnrN-EQdbmiIPyv4/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-slate-900/50 backdrop-blur-xl border border-slate-700 hover:border-[#00ff88] hover:scale-105 hover:shadow-[0_10px_40px_rgba(0,255,136,0.3)] transition-all duration-300"
           >
             <FileText className="w-5 h-5 text-[#00ff88] group-hover:rotate-12 transition-transform duration-300" />
@@ -20,7 +17,7 @@ export function Footer() {
               View Resume
             </span>
             <ExternalLink className="w-4 h-4 text-slate-400 group-hover:text-[#00ff88] transition-colors" />
-          </button>
+          </a>
         </div>
 
         <p className="text-sm font-mono mb-2">
